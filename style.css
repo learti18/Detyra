@@ -6,7 +6,6 @@
 }
 header{
 
-    font-size: 12px;
     padding-top: 3px;
     padding-bottom: 3px;
     display: flex;
@@ -28,8 +27,6 @@ header ul{
 }
 header ul li{
     padding-right: 30px;
-
-
 }
 .headeri{
     display: flex;
@@ -47,7 +44,7 @@ main{
     background-image: url(hero.jpg);
     background-size:cover;
     background-position: center;
-    height: 200px;
+    height: 300px;
 
 
     display: flex;
@@ -85,8 +82,8 @@ main{
 .fotografit{
     display: flex;    
     flex-direction: row;
-    justify-content: space-around;
-    flex-wrap:wrap-reverse;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
 }
 .views_date{
     display: flex;
@@ -96,10 +93,10 @@ main{
     padding-bottom: 30px;
     
     color: rgb(146, 144, 144);
-    font-size: 10px;
+   
 }
 .img{
-    width: 200px;
+    width: 350px;
 }
 
 .permifooter{
@@ -111,14 +108,14 @@ main{
     padding: 50px 10px 50px 10px;
 }
 .btn_prev_next{
-    font-size: 11px;
+
     border: none;
     padding: 10px 30px 10px 30px;
     border-radius: 3px;
     color: white;
 }
 .btn{
-    font-size: 11px;
+    
     border: none;
     border-radius: 3px;
 
@@ -132,7 +129,7 @@ main{
 footer{
     padding-top: 30px;
     padding-bottom: 20px;
-    font-size: 12px;
+
     background-color: rgb(226, 226, 226);
 }
 .f{
